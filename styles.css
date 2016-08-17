@@ -1,0 +1,89 @@
+.block_didaskogrademe .content {
+    font-size: 0.75em !important;
+    padding: 0 4px 4px 4px;
+}
+
+.block_didaskogrademe dl,
+.block_didaskogrademe dt,
+.block_didaskogrademe dd,
+.block_didaskogrademe ul,
+.block_didaskogrademe li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.block_didaskogrademe .gm_icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 4px;
+}
+
+.block_didaskogrademe .cmod {
+    line-height: 16px;
+    margin: 6px 0 2px 0;
+}
+
+.block_didaskogrademe .module {
+    line-height: 16px;
+    position: relative;
+    padding: 3px 0 3px 20px;
+}
+
+.block_didaskogrademe .toggle {
+    position: relative;
+    left: 0;
+    display: block;
+    width: 16px;
+    height: 16px;
+    float: left;
+    cursor: pointer;
+    background: transparent url('[[pix:block_didaskogrademe|closed]]') no-repeat 50% 50%;
+}
+
+.block_didaskogrademe .toggle.open {
+    background: transparent url('[[pix:block_didaskogrademe|open]]') no-repeat 50% 50% !important;
+}
+
+.jsenabled .block_grade_me_hide {
+    display: none;
+}
+
+.block_didaskogrademe .cloakable {
+    line-height: 1em;
+    margin: 0 0 3px 0;
+    border-top: 1px dotted #ccc;
+}
+
+.block_didaskogrademe .gradable {
+    padding: 2px 0;
+    border-bottom: 1px dotted #ccc;
+}
+
+.block_didaskogrademe .gradable .gm_icon {
+    margin-top: 1px;
+}
+
+.block_didaskogrademe .cloakable * {
+    font-size: 9px;
+}
+
+.block_didaskogrademe .empty {
+    line-height: 15px;
+}
+
+.block_didaskogrademe .empty img {
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-right: 4px;
+}
+
+.block_didaskogrademe .excess {
+    margin-top: 4px;
+    padding: 4px 16px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(205,0,0);
+}
