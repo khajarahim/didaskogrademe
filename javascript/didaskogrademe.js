@@ -1,6 +1,6 @@
 YUI().use("node","io-base", function(Y) {
 	
-	var ajaxUri = "../blocks/didaskogrademe/ajax";
+	var ajaxUri = "blocks/didaskogrademe/ajax";
 	var loadGradeMeContent = function(){
 		var ajaxUrl = ajaxUri+"/grademe.php?action=load&format=json";
 		Y.io(ajaxUrl, {
