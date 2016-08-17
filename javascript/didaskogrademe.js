@@ -8,6 +8,8 @@ YUI().use("node","io-base", function(Y) {
 				start: function (){
 					Y.one("#didaskoGradeMeButton").set("disabled", true);
 					Y.one("#didaskoGradeMePanel").setHTML("Loading....");
+					var spinner = M.util.add_spinner(Y, Y.one('#didaskoGradeMePanel'));
+					spinner.show();
 				},
 				success: function (x, o) {
 					 var parsedResponse;
